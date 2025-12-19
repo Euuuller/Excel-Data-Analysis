@@ -1,0 +1,27 @@
+# Arquivos temporários do Excel
+~$*.xlsx
+~$*.xlsm
+~$*.xls
+*.tmp
+
+# Arquivos de backup do Excel
+*.xlk
+*~
+
+# Arquivos do sistema Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Arquivos do sistema macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Pastas de dados sensíveis (se houver)
+data/raw/
+*.csv.bak
+
+# Logs e caches
+*.log
+.cache/
